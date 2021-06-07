@@ -1,15 +1,3 @@
-@font-face {
-    font-family: 'Times';
-    font-style: normal;
-    font-weight: 500;
-    src: url(../font/Times.ttc) format('ttc'),
-}
-@font-face {
-    font-family: 'Times';
-    font-style: normal;
-    font-weight: 700;
-    src: url(../font/Times-Bold.ttf) format('ttf'),
-}
 /*
 * Noto Sans KR (korean) http://www.google.com/fonts/earlyaccess
  */
@@ -61,6 +49,3 @@
           url(../font/NotoSansKR-Black.woff) format('woff'),
           url(../font/NotoSansKR-Black.otf) format('opentype');
    }
-
-
-   body {font-family: 'Noto Sans KR', sans-serif;}
