@@ -1,0 +1,264 @@
+body {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.header-logo {
+    display: block;
+    height: 30px;
+    position: fixed;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Times', serif;
+    font-weight: 700;
+    line-height: 30px;
+    top: 50px;
+    left: 4%;
+    z-index: 9999;
+    overflow: hidden;
+
+}
+.logo-blank {
+    display: inline-block;
+    width: 60px;
+}
+.header-btn-area {
+    display: block;
+    height: 30px;
+    position: fixed;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Times', serif;
+    font-weight: 700;
+    line-height: 30px;
+    top: 50px;
+    right: 4%;
+    overflow: hidden;
+    z-index: 9991;
+}
+.header-btn {
+    display: inline-block;
+    height: 30px;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Times', serif;
+    font-weight: 700;
+    line-height: 30px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.back-btn:hover {
+    color: #ffffff;
+}
+
+#mypage {
+    display: block;
+    width: calc(100vw - 8%);
+    height: calc(100vh - 220px);
+    overflow: hidden;
+    background-color: #0e1012;
+    position: relative;
+    padding: 140px 4% 80px 4%;
+}
+
+.mypage-title {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.bookmark-area {
+    margin-top: 24px;
+    width: 100%;
+    display: block;
+    position: relative;
+
+}
+.bookmark-title {
+    font-size: 20px;
+    color: #ffffff;
+}
+.bookmark-list {
+    margin-top: 20px;
+}
+.bookmark-list ul li {
+    display: inline-block;
+    width: 150px;
+    margin-right: 30px;
+}
+.bookmark-box {
+    width: 100%;
+    display: block;
+}
+.bookmark-img {
+    display: block;
+    width: 150px;
+    height: 150px;
+}
+.bookmark-img img {
+    display:block;
+    width: 100%;
+    height: 100%;
+}
+.bookmark-name {
+    font-size: 17px;
+    color: #ffffff;
+    margin-top: 16px;
+}
+.bookmark-year {
+    font-size: 16px;
+    color: #cccccc;
+    margin-top: 20px;
+}
+
+.artist-area {
+    display: block;
+    width: 100%;
+    position: relative;
+    margin-top: 60px;
+}
+.artist-title {
+    font-size: 20px;
+    color: #ffffff;
+}
+.artist-list {
+    margin-top: 20px;
+}
+.artist-list ul li {
+    display: inline-block;
+    width: 160px;
+    margin-right: 30px;
+}
+.artist-box {
+    width: 100%;
+    display: block;
+}
+.artist-box img {
+    display: block;
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+}
+.artist-name {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    color: #e0e0e0;
+    margin-top: 16px;
+}
+
+#info {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0e1012;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -9990;
+    opacity: 0;
+    color: #ffffff;
+    flex-direction: row;
+    overflow: hidden;
+
+}
+.info-back-btn {
+    display: block;
+    height: 30px;
+    position: absolute;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Times', serif;
+    font-weight: 700;
+    line-height: 30px;
+    top: 50px;
+    right: 4%;
+}
+.info-text {
+    display: flex;
+    flex-direction: column;
+    /* position: absolute;
+    top: 20%;
+    left: 4%; */
+    padding: 10% 12% 0 4%;
+}
+.info-credit {
+    display: block;
+    padding: 10% 0 0 0;
+    font-size: 1.3em;
+    font-weight: 700;
+    line-height: 1.5em;
+    color: #c3a67a;
+
+}
+.info-credit ul li {
+    margin-top: 48px;
+}
+.info-text div {
+    display: block;
+    font-size: 1.3em;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+.text-en {
+    padding-top: 60px;
+}
+#search {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0e1012;
+    z-index: -9990;
+    opacity: 0;
+    overflow: hidden;
+}
+.search-back-btn {
+    display: block;
+    height: 30px;
+    position: absolute;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Times', serif;
+    font-weight: 700;
+    line-height: 30px;
+    top: 50px;
+    right: 4%;
+}
+.searchArea {
+    margin: 160px 80px 0 80px;
+}
+.searchInput {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 2px #fff;
+    font-size: 120px;
+    font-family: 'Times';
+    font-weight: 700;
+    color: #c3a67a;
+}
+.searchInput:focus {
+    outline: none;
+}
+.searchRecommand {
+    margin: 80px 80px 0 80px;
+    font-size: 3em;
+    font-family: 'Times';
+    font-weight: 500;
+}
+.searchRecommand li {
+    display: inline-block;
+    margin-right: 80px;
+    margin-bottom: 50px;
+}
+.searchRecommand li a {
+    color: #f5f5f5;
+
+}
+.searchRecommand li a:hover {
+    color: #c3a67a;
+
+}
